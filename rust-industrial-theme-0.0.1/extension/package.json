@@ -8,9 +8,6 @@
     "type": "git",
     "url": "https://github.com/Duzim/rust-industrial-theme"
   },
-  "scripts": {
-    "build": "npx @vscode/vsce package"
-  },
   "icon": "./imgs/icon.png",
   "engines": {
     "vscode": "^1.116.0"

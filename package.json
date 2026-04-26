@@ -1,0 +1,26 @@
+{
+  "name": "rust-industrial-theme",
+  "displayName": "Rust Industrial Theme",
+  "description": "Theme focused on Rust's official identity.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.116.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rust Industrial Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-theme.json"
+      },
+      {
+        "label": "Rust Industrial Light",
+        "uiTheme": "vs",
+        "path": "./themes/light-theme.json"
+      }
+    ]
+  }
+}

@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="./imgs/icon.png" alt="gregor" height="200"/>
+</div>
+
 # Rust Industrial Theme para VS Code
 
 [![Versão](https://img.shields.io/visual-studio-marketplace/v/SeuUsuario.rust-industrial?color=orange&label=Vers%C3%A3o)](https://marketplace.visualstudio.com/)
@@ -66,4 +70,3 @@ Adicione o seguinte trecho ao seu `settings.json` de usuário:
   "editor.fontLigatures": true
 }
 ```
-

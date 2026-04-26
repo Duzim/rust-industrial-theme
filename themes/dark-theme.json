@@ -143,6 +143,58 @@
       "settings": {
         "foreground": "#666666"
       }
+    },
+    {
+      "name": "Markdown: Títulos (Headings)",
+      "scope": ["markup.heading", "punctuation.definition.heading.markdown"],
+      "settings": { "foreground": "#fabd2f", "fontStyle": "bold" }
+    },
+    {
+      "name": "Markdown: Negrito e Itálico",
+      "scope": ["markup.bold", "punctuation.definition.bold.markdown"],
+      "settings": { "foreground": "#ff4d29", "fontStyle": "bold" }
+    },
+    {
+      "name": "Markdown: Itálico",
+      "scope": ["markup.italic", "punctuation.definition.italic.markdown"],
+      "settings": { "foreground": "#d3869b", "fontStyle": "italic" }
+    },
+    {
+      "name": "Markdown: Listas e Citações (Blockquote)",
+      "scope": [
+        "markup.quote",
+        "markup.list",
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": { "foreground": "#98971a" }
+    },
+    {
+      "name": "Markdown: Links e Texto de Link",
+      "scope": ["markup.underline.link", "string.other.link.title.markdown"],
+      "settings": { "foreground": "#83a598", "fontStyle": "underline" }
+    },
+    {
+      "name": "Markdown: Código Inline (Crases)",
+      "scope": [
+        "markup.inline.raw.string.markdown",
+        "markup.fenced_code.block.markdown"
+      ],
+      "settings": { "foreground": "#f2e5bc" }
+    },
+    {
+      "name": "HTML/Markdown: Tags HTML",
+      "scope": ["entity.name.tag", "meta.tag.sgml"],
+      "settings": { "foreground": "#fabd2f" }
+    },
+    {
+      "name": "HTML/Markdown: Pontuação de Tags (< e >)",
+      "scope": ["punctuation.definition.tag"],
+      "settings": { "foreground": "#666666" }
+    },
+    {
+      "name": "HTML/Markdown: Atributos da Tag",
+      "scope": ["entity.other.attribute-name"],
+      "settings": { "foreground": "#83a598", "fontStyle": "italic" }
     }
   ],
   "semanticHighlighting": true,
